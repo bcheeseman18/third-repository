@@ -1,0 +1,27 @@
+body {
+    font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: purple;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.sgnUp {
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 3%;
+
+}
+
+.box {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 15px;
+    border: 0 solid white;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+}
