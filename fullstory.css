@@ -4,12 +4,13 @@ body {
     background: linear-gradient(47deg, #5672d1 0%, #685ec3 26%, #8d35a5 82%);
     padding-left: 5%;
     padding-right: 2%;
-    margin-top: 5%;
+    margin-top: 0;
+    overflow: scroll hidden;
 }
 
 header {
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
     border: none;
     text-decoration: none;
     background: linear-gradient(60deg, #98349b 0%, #c94693 25%, #ef558d 78%, #f8bc05 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .lrnMr {
@@ -46,7 +48,7 @@ h2 {
 }
 
 .two {
-    margin-top: 40%;
+    margin-top: 25%;
 }
 
 a {
@@ -58,6 +60,7 @@ ul {
     flex-direction: column;
     list-style-type: none;
     margin: 10%;
+    box-shadow: gray;
 }
 
 li {
@@ -73,20 +76,22 @@ li {
     font-size: 1.8em;
     font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #left {
     display: inline-block;
     width: 40%;
     position: fixed;
+    margin-top: 0;
 }
 
 .center, .right {
     display: inline-block;
     width: 29%;
     vertical-align: top;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
     animation-duration: 1000s;
     animation-direction: alternate;
     float: right;
@@ -98,6 +103,7 @@ li {
     position: absolute;
     left: 10%;
     bottom: 87%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content {
