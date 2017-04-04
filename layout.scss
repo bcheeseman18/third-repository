@@ -1,0 +1,90 @@
+@media (min-width: 100px) and (max-width: 800px) {
+    body {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    h2 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .paragraphOne {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+.sgnUp {
+        margin: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .lrnMr {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .two {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20%;
+    }
+
+    ul {
+        display: block;
+        margin: 0 1% 0 10%;
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        width: 50%;
+    }
+
+    #left {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .center, .right {
+        display: inline-block; 
+        width: 100%;
+       -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        animation-timing-function: none;
+        animation-iteration-count: none;
+        animation-duration: none;
+        animation-direction: none;
+        text-align: center;
+        position: relative;
+    }
+
+.handle {
+    display: inline-block;
+    font-size: .5em;
+}
+
+.pic {
+    border-radius: 50%;
+    margin: 2%;
+    position: absolute;
+    left: 10%;
+    bottom: 87%;
+
+}
