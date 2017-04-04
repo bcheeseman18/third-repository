@@ -1,0 +1,52 @@
+header {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h2 {
+    font-size: 2.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.paragraphOne {
+    margin-bottom: 10%;
+}
+
+.sgnUp {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 20px;
+    margin-top: 10%;
+    font-size: 1em;
+    color: white;
+    border: none;
+    text-decoration: none;
+    background: linear-gradient(60deg, #98349b 0%, #c94693 25%, #ef558d 78%, #f8bc05 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lrnMr {
+    border: none;
+    background: none;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;  
+}
+
+.two {
+    margin-top: 25%;
+}
+
+a {
+    color: darkorange;
+
+#left {
+    display: inline-block;
+    width: 40%;
+    position: fixed;
+    margin-top: 0;
+    background-size: 100%;
